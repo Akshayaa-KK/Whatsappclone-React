@@ -6,7 +6,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    margin-top:75px;
+    margin-top:40px;
     margin-left:40%;
 
 }
@@ -72,4 +72,19 @@
         margin-left:10%;
         margin-top:20px;
     }
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    .frame{
+        margin-left:20%;
+        margin-top:25px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .frame{
+        margin-left:30%;
+        margin-top:30px;
+    }
+    
 }
